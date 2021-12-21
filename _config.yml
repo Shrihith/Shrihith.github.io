@@ -1,21 +1,21 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Shrihith Anantharam
+description: "| Bioinformatician | Microbiologist | | Python Developer |"
+site_title: '@Shrihith - Shrihith Anantharam'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
+github_username: Shrihith
+blog_url: https://shrihith93.blogspot.com
+email: shrihith93@gmail.com
+keybase_username: shrihith93
+twitter_username: shrihith93
 reddit_username: abhn
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/shri.jpg
 
 # Google Analytics ID
-google_analytics: 
+google_analytics: G-4B49RG4CR4
