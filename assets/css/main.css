@@ -195,7 +195,7 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-    background: url(../images/background.png);
+    background: url(../images/background.gif);
     background-repeat: repeat;
 }
 
@@ -269,7 +269,7 @@ img {
     min-height: 35px;
     color: #fff;
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-    background: url(../images/background.png);
+    background: url(../images/background.gif);
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -410,7 +410,7 @@ img {
 }
 
 #nav {
-    background: url(../images/background.png);
+    background: url(../images/background.gif);
     background-repeat: repeat;
 }
 
