@@ -158,7 +158,7 @@ let render_projects = (slug) => {
             title: 'LSSSDC',
             demo: false,
             description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
-            categories: ['native']
+            categories: ['diy']
         },
     ]
     let projects = [];
