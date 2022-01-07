@@ -155,8 +155,10 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpg',
+            link: 'https://github.com/abhn/koalamate'
             title: 'LSSSDC',
             demo: false,
+            technologies: ['Electron', 'Javascript'],
             description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
             categories: ['diy']
         },
