@@ -146,8 +146,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
-            link: 'https://github.com/abhn/koalamate',
-            title: 'Koalamate',
+            title: 'LSSSDC',
             demo: false,
             technologies: ['Electron', 'Javascript'],
             description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
