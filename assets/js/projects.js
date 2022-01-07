@@ -145,22 +145,13 @@ let render_projects = (slug) => {
             categories: ['diy']
         },
         {
-            image: 'assets/images/koalamate.png',
+            image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
             link: 'https://github.com/abhn/koalamate',
             title: 'Koalamate',
             demo: false,
             technologies: ['Electron', 'Javascript'],
             description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
             categories: ['native']
-        },
-        {
-            image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpg',
-            link: 'https://github.com/abhn/koalamate'
-            title: 'LSSSDC',
-            demo: false,
-            technologies: ['Electron', 'Javascript'],
-            description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
-            categories: ['diy']
         },
     ]
     let projects = [];
