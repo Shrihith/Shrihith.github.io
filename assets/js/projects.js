@@ -9,8 +9,7 @@ let render_projects = (slug) => {
     $('.white-button').removeClass('white-button-hover');
     $(`#${slug}`).addClass('white-button-hover');
 
-    let projects_obj = [
-        {
+    let projects_obj = [{
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
             title: 'Mporter',
@@ -154,20 +153,25 @@ let render_projects = (slug) => {
             description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
             categories: ['native']
         },
+        {
+            image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpg',
+            title: 'LSSSDC',
+            demo: false,
+            description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
+            categories: ['native']
+        },
     ]
-
     let projects = [];
-    if(slug == 'all') {
+    if (slug == 'all') {
         projects = projects_obj.map(project_mapper);
-    } 
-    else {
+    } else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
     projects_area.hide().html(projects).fadeIn();
 }
 
 let project_mapper = project => {
-    return `
+        return `
         <div class="wrapper">
                 
             <div class="card radius shadowDepth1">
