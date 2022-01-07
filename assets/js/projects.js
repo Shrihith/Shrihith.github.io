@@ -146,7 +146,8 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
-            title: 'LSSSDC',
+            link: 'https://www.dropbox.com/s/xna8sw9t8u9z3rf/LSSSDC-CERTIFICATE-LEVEL-5.jpeg?dl=0',
+            title: 'LSSSDC ',
             demo: false,
             technologies: ['Electron', 'Javascript'],
             description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
