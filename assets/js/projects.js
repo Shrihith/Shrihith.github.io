@@ -11,6 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [{
             image: 'assets/images/1-Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop.jpeg',
+            link: false,
             title: 'Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop',
             technologies: ['Bioinformatics', 'Drug Discovery'],
             description: "Drug discovery 5 days workshop basic to Advance.",
@@ -18,6 +19,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/2-2nd_Stem_Cell_Engineering_Workshop.jpeg',
+            link: false,
             title: '2nd_Stem_Cell_Engineering_Workshop',
             technologies: ['Stem Cell'],
             description: "A detailed Stem cell culture lecture workshop from NCBS.",
@@ -25,34 +27,35 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/3-Quantum Mechanics,Molecular Mechanics and Metadynamics Workshop.jpeg ',
+            link: false,
             title: 'Quantum Mechanics,Molecular Mechanics and Metadynamics Workshop',
             technologies: ['Molecular Dynamics', 'GROMACS'],
             description: "2 days workshop on Molecular Dynamics and simulations.",
             categories: ['Workshops']
         }, {
             image: 'assets/images/4-R for Biologist__Certificate1.png',
+            link: false,
             title: 'R for Biologist',
             technologies: ['R', 'Visualization', 'Research'],
             description: "R programming for Biologist learn Research visualization and Statistical analysis.",
             categories: ['Workshops']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Social Share Count',
+            image: 'assets/images/5-DataScience_and_MachineLearning1.png',
+            title: 'DataScience_and_MachineLearning',
             demo: false,
-            technologies: ['Python'],
-            description: "Ever wondered how many times a URL has been shared on popular social networks?",
-            categories: ['native']
+            technologies: ['Python', 'Data Science'],
+            description: "Datascience and machine learning related to life science",
+            categories: ['Workshops']
         },
         {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
+            image: 'assets/images/6-International_Bioinformatics_Workshop_On_Genome_Informatics1.png',
+            link: false,
+            title: 'International_Bioinformatics_Workshop_On_Genome_Informatics',
             demo: false,
-            technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-            categories: ['native']
+            technologies: ['Genomics ', 'Python', 'NGS'],
+            description: "Genome informatics , Rnaseq, NGS,  Python",
+            categories: ['Workshops']
         },
         {
             image: 'assets/images/raspberry-pi-monitor.png',
