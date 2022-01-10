@@ -10,13 +10,11 @@ let render_projects = (slug) => {
     $(`#${slug}`).addClass('white-button-hover');
 
     let projects_obj = [{
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
+            image: '1-Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop.jpeg',
+            title: 'Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop',
+            technologies: ['Bioinformatics', 'Drug Discovery'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            categories: ['Workshops']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
