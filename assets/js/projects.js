@@ -15,12 +15,12 @@ let render_projects = (slug) => {
             title: 'Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction 5days Workshop',
             technologies: ['Bioinformatics', 'Drug Discovery'],
             description: "Drug discovery 5 days workshop basic to Advance.",
-            categories: ['Workshops']
+            categories: ['Workshops', 'featured']
         },
         {
             image: 'assets/images/2-2nd_Stem_Cell_Engineering_Workshop.jpeg',
             link: false,
-            title: '2nd_Stem_Cell_Engineering_Workshop',
+            title: '2nd Stem Cell Engineering Workshop',
             technologies: ['Stem Cell'],
             description: "A detailed Stem cell culture lecture workshop from NCBS.",
             categories: ['Workshops']
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
             title: 'Quantum Mechanics, Molecular Mechanics and Metadynamics Workshop',
             technologies: ['Molecular Dynamics', 'GROMACS'],
             description: "2 days workshop on Molecular Dynamics and simulations.",
-            categories: ['Workshops']
+            categories: ['Workshops', 'featured']
         }, {
             image: 'assets/images/4-R for Biologist__Certificate1.png',
             link: false,
@@ -55,7 +55,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Genomics ', 'Python', 'NGS'],
             description: "Genome informatics , Rnaseq, NGS,  Python",
-            categories: ['Workshops']
+            categories: ['Workshops', 'featured']
         },
         {
             image: 'assets/images/raspberry-pi-monitor.png',
