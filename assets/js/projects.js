@@ -12,7 +12,7 @@ let render_projects = (slug) => {
     let projects_obj = [{
             image: 'assets/images/1-Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop.jpeg',
             link: false,
-            title: 'Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction_5days_Workshop',
+            title: 'Practical Approach of Computational Tools and Methods in Drug discovery and Admet Property Prediction 5days Workshop',
             technologies: ['Bioinformatics', 'Drug Discovery'],
             description: "Drug discovery 5 days workshop basic to Advance.",
             categories: ['Workshops']
@@ -28,7 +28,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/3-Quantum Mechanics,Molecular Mechanics and Metadynamics Workshop.jpeg ',
             link: false,
-            title: 'Quantum Mechanics,Molecular Mechanics and Metadynamics Workshop',
+            title: 'Quantum Mechanics, Molecular Mechanics and Metadynamics Workshop',
             technologies: ['Molecular Dynamics', 'GROMACS'],
             description: "2 days workshop on Molecular Dynamics and simulations.",
             categories: ['Workshops']
@@ -42,7 +42,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/5-DataScience_and_MachineLearning1.png',
-            title: 'DataScience_and_MachineLearning',
+            title: 'DataScience and MachineLearning',
             demo: false,
             technologies: ['Python', 'Data Science'],
             description: "Datascience and machine learning related to life science",
@@ -51,7 +51,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/6-International_Bioinformatics_Workshop_On_Genome_Informatics1.png',
             link: false,
-            title: 'International_Bioinformatics_Workshop_On_Genome_Informatics',
+            title: 'International Bioinformatics Workshop On Genome Informatics',
             demo: false,
             technologies: ['Genomics ', 'Python', 'NGS'],
             description: "Genome informatics , Rnaseq, NGS,  Python",
