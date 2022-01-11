@@ -42,7 +42,7 @@ function blog_posts() {
 
         if (post.tags) {
             tags = post.tags.map(tag => {
-                return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
+                return `<a href="https://shrihith93.blogspot.com/tags#${tag}">${tag}</a>`
             })
         }
 
