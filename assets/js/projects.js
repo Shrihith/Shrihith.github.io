@@ -49,6 +49,15 @@ let render_projects = (slug) => {
             categories: ['Workshops']
         },
         {
+            image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
+            link: false,
+            title: 'LSSSDC',
+            demo: false,
+            technologies: ['LSSSDC', 'Research Associate'],
+            description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
+            categories: ['Excellence', 'featured']
+        },
+        {
             image: 'assets/images/6-International_Bioinformatics_Workshop_On_Genome_Informatics1.png',
             link: false,
             title: 'International Bioinformatics Workshop On Genome Informatics',
@@ -145,7 +154,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['LSSSDC', 'Research Associate'],
             description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
-            categories: ['Excellence']
+            categories: ['Excellence', 'featured']
         },
     ]
     let projects = [];
