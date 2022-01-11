@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     general_utils();
     blog_posts();
@@ -11,46 +10,37 @@ function general_utils() {
     $('.extra-link a').smoothScroll();
     $('.profile-pic-link').smoothScroll();
 
-    $('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width: $(this).attr('data-percent')
-		}, 1000);
-	});
+    $('.skillbar').each(function() {
+        $(this).find('.skillbar-bar').animate({
+            width: $(this).attr('data-percent')
+        }, 1000);
+    });
 }
 
 function blog_posts() {
 
     // keeping it static, can be fetched from a blog dynamically as well
-    let posts = [
-        {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+    let posts = [{
+            url: 'https://shrihith93.blogspot.com/2021/12/turtleracegame-python.html',
+            title: 'Turtle_Race_Game',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: 'https://shrihith93.blogspot.com/2021/12/pythontaskassignment.html',
+            title: 'Python_Task_Assignment',
         },
         {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
-        },
-        {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
-        },
-        {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
+            url: 'https://shrihith93.blogspot.com/2021/12/python-quiz-game-gui-from-shrihith-a.html',
+            title: 'PYTHON QUIZ GAME GUI FROM SHRIHITH A',
         },
     ];
 
     let post_html = [];
 
-    for(let post of posts) {
+    for (let post of posts) {
 
         let tags;
-        
-        if(post.tags) {
+
+        if (post.tags) {
             tags = post.tags.map(tag => {
                 return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
             })
