@@ -58,31 +58,31 @@ let render_projects = (slug) => {
             categories: ['Workshops', 'featured']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
+            image: 'assets/images/ADVANCE PYTHON PROGRAMMING.png',
+            link: false,
+            title: 'ADVANCE PYTHON PROGRAMMING',
             demo: false,
-            technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['webdev', 'diy']
+            technologies: ['python', 'OOPS'],
+            description: "Python basics Beginer to Advance.",
+            categories: ['Course', 'featured']
         },
         {
-            image: 'assets/images/s3scan.png',
-            link: 'https://github.com/abhn/S3Scan',
-            title: 'S3Scan',
+            image: 'assets/images/Bioinformatics Methods and Tools Master_14days.jpeg',
+            link: false,
+            title: 'Bioinformatics Methods and Tools Master_14days',
             demo: false,
-            technologies: ['python'],
-            description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
-            categories: ['native', 'security']
+            technologies: ['Bioinformatics'],
+            description: "Bioinformatics Methods and Tools Master_14days.",
+            categories: ['Excellence', 'featured']
         },
         {
-            image: 'assets/images/elementary.png',
-            link: 'https://github.com/abhn/Elementary',
-            title: 'Elementary',
-            demo: 'https://elementary-jekyll.github.io/',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
-            categories: ['webdev']
+            image: 'assets/images/Buisness Analytics with excel.jpg',
+            link: false,
+            title: 'Buisness Analytics with excel',
+            demo: false,
+            technologies: ['Microsoft', 'EXCEL'],
+            description: "Buisness Analytics with excel.",
+            categories: ['Course']
         },
         {
             image: 'assets/images/soot-spirits.png',
