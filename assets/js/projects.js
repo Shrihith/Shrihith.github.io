@@ -100,7 +100,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Basics'],
             description: "Certificate Of Completion_Learning Python.",
-            categories: ['Course', 'featured']
+            categories: ['Course']
         },
         {
             image: 'assets/images/Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.jpeg',
@@ -109,7 +109,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Computational', 'Drug discovery'],
             description: "Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.",
-            categories: ['Excellence', 'featured']
+            categories: ['Excellence']
         },
         {
             image: 'assets/images/MEMBER OF THE EXPERTEZE RESEARCH TEAM1.png',
@@ -127,7 +127,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Nanoparticle', 'GreenSynthesis'],
             description: "Plant based green synthesis of Zno nanoparticle of F.mysorensis As Novel Antimicrobial agents on Nacosomal Pathogens.",
-            categories: ['Excellence', 'featured']
+            categories: ['Excellence']
         },
         {
             image: 'assets/images/Data Visualization with Matplotlib Bootcamp.png',
