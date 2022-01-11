@@ -85,22 +85,22 @@ let render_projects = (slug) => {
             categories: ['Course']
         },
         {
-            image: 'assets/images/soot-spirits.png',
-            link: 'https://github.com/abhn/Soot-Spirits',
-            title: 'Soot Spirits',
-            demo: 'https://sootspirits.github.io',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
-            categories: ['webdev']
+            image: 'assets/images/CertificateOfCompletion_Learning Python 20201.png',
+            link: false,
+            title: 'Certificate Of Completion_Learning Python',
+            demo: false,
+            technologies: ['Python', 'Basics'],
+            description: "Certificate Of Completion_Learning Python.",
+            categories: ['Course']
         },
         {
-            image: 'assets/images/python-chat.png',
-            link: 'https://www.nagekar.com/2014/12/lan-group-messenger-in-python.html',
-            title: 'Terminal Group Chat',
+            image: 'assets/images/Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.jpeg',
+            link: false,
+            title: 'Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.',
             demo: false,
-            technologies: ['Python', 'Sockets'],
-            description: "Simple terminal group chat based on native sockets using Python.",
-            categories: ['native']
+            technologies: ['Computational', 'Drug discovery'],
+            description: "Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.",
+            categories: ['Excellence']
         },
         {
             image: 'assets/images/old-lcd.jpg',
