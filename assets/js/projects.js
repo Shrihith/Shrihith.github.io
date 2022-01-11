@@ -130,31 +130,49 @@ let render_projects = (slug) => {
             categories: ['Excellence', 'featured']
         },
         {
-            image: 'assets/images/google-cloud-backup.png',
-            link: 'https://www.nagekar.com/2018/05/encrypted-backup-with-duplicity.html',
-            title: 'Encrypted Backups - Google Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'Duplicity'],
-            description: "Create automated encrypted incremental backups of data. Sync everything securely to Google Cloud.",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/pi-cloud.jpg',
-            link: 'https://www.nagekar.com/2016/01/how-to-private-local-cloud-using-raspberrypi.html',
-            title: 'Local Cloud - Raspberry Pi',
-            demo: false,
-            technologies: ['FTP', 'DIY'],
-            description: "Host a local cloud server with a Raspberry Pi and a spare hard disk. Access data instantaneously on any device on the network.",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
+            image: 'assets/images/Data Visualization with Matplotlib Bootcamp.png',
             link: false,
-            title: 'LSSSDC',
+            title: 'Data Visualization with Matplotlib Bootcamp.',
             demo: false,
-            technologies: ['LSSSDC', 'Research Associate'],
-            description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
-            categories: ['Excellence', 'featured']
+            technologies: ['Matplotlib', 'Visualization'],
+            description: "Data Visualization with Matplotlib Bootcamp.",
+            categories: ['Bootcamp']
+        },
+        {
+            image: 'assets/images/Data_Visualization_using_PowerBI.png',
+            link: false,
+            title: 'Data Visualization using PowerBI',
+            demo: false,
+            technologies: ['PowerBI', 'Visualization.'],
+            description: "Data Visualization using PowerBI.",
+            categories: ['Course']
+        },
+        {
+            image: 'assets/images/Introduction to NumPy Bootcamp.png',
+            link: false,
+            title: 'Introduction to NumPy Bootcamp',
+            demo: false,
+            technologies: ['Numpy', 'Python'],
+            description: "Introduction to NumPy Bootcamp.",
+            categories: ['Bootcamp']
+        },
+        {
+            image: 'assets/images/Introduction to Pandas Bootcamp.png',
+            link: false,
+            title: 'Introduction to Pandas Bootcamp',
+            demo: false,
+            technologies: ['Pandas', 'Python'],
+            description: "Introduction to Pandas Bootcamp.",
+            categories: ['Bootcamp']
+        },
+        {
+            image: 'assets/images/Python Basics for Data Science Bootcamp.png',
+            link: false,
+            title: 'Python Basics for Data Science Bootcamp',
+            demo: false,
+            technologies: ['Basics', 'Python'],
+            description: "Python Basics for Data Science Bootcamp.",
+            categories: ['Bootcamp']
         },
     ]
     let projects = [];
