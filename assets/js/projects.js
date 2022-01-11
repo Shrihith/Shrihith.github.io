@@ -100,25 +100,25 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Computational', 'Drug discovery'],
             description: "Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.",
-            categories: ['Excellence']
+            categories: ['Excellence', 'featured']
         },
         {
-            image: 'assets/images/old-lcd.jpg',
+            image: 'assets/images/MEMBER OF THE EXPERTEZE RESEARCH TEAM1.png',
             link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
-            title: 'Reusing Old LCD Panel',
+            title: 'MEMBER OF THE EXPERTEZE RESEARCH TEAM',
             demo: false,
-            technologies: ['DIY'],
-            description: "Reusing a dead laptop's LCD panel as a secondary monitor.",
-            categories: ['diy']
+            technologies: ['Research'],
+            description: "MEMBER OF THE EXPERTEZE RESEARCH TEAM.",
+            categories: ['Excellence', 'featured']
         },
         {
-            image: 'assets/images/nextcloud-enc.png',
-            link: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Encrypted Self-Hosted Cloud',
+            image: 'assets/images/Plant based green synthesis of Zno nanoparticle of F.mysorensis As Novel Antimicrobial agents on Nacosomal Pathogens.jpeg',
+            link: false,
+            title: 'Plant based green synthesis of Zno nanoparticle of F.mysorensis As Novel Antimicrobial agents on Nacosomal Pathogens.',
             demo: false,
-            technologies: ['NextCloud', 'GnuPG'],
-            description: "Self hosted encrypted cloud setup with Nextcloud and GnuPG.",
-            categories: ['diy', 'security']
+            technologies: ['Nanoparticle', 'GreenSynthesis'],
+            description: "Plant based green synthesis of Zno nanoparticle of F.mysorensis As Novel Antimicrobial agents on Nacosomal Pathogens.",
+            categories: ['Excellence', 'featured']
         },
         {
             image: 'assets/images/google-cloud-backup.png',
