@@ -104,7 +104,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/MEMBER OF THE EXPERTEZE RESEARCH TEAM1.png',
-            link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
+            link: false,
             title: 'MEMBER OF THE EXPERTEZE RESEARCH TEAM',
             demo: false,
             technologies: ['Research'],
@@ -140,12 +140,12 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/LSSSDC-CERTIFICATE-LEVEL-5.jpeg',
-            link: 'https://www.dropbox.com/s/xna8sw9t8u9z3rf/LSSSDC-CERTIFICATE-LEVEL-5.jpeg?dl=0',
-            title: 'LSSSDC ',
+            link: false,
+            title: 'LSSSDC',
             demo: false,
-            technologies: ['Electron', 'Javascript'],
-            description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
-            categories: ['native']
+            technologies: ['LSSSDC', 'Research Associate'],
+            description: "Research Associate-Product Development/Synthesis/Medicinal Chemistry (QP No - LFS/Q0505) Conforming to National skill Qualifications Framework Level-5.",
+            categories: ['Excellence']
         },
     ]
     let projects = [];
