@@ -100,7 +100,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Basics'],
             description: "Certificate Of Completion_Learning Python.",
-            categories: ['Course']
+            categories: ['Course', 'featured']
         },
         {
             image: 'assets/images/Computational approach for the Evaluation of Bioactive Compounds from Ethanobotanicals potential and biological Activity.jpeg',
